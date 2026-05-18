@@ -37,7 +37,7 @@ header{
 }
 
 .menu{
-    displey:flex;
+    display:flex;
     justify-content: center;
     list-style: none;
     gap:20px;
@@ -57,7 +57,7 @@ header{
 
 main{
     width:85%;
-    max-witdh:1200px;
+    max-width:1200px;
     margin:auto;
 }
 
@@ -97,4 +97,77 @@ li{
 
 .ficha th, .ficha td{
     border:1px solid #747474;
+    padding: 10px;
+}
+
+.ficha th{
+    background-color: #5e5a4b;
+    color: white;
+}
+
+.centrado{
+    text-align:center;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input{
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #7e724b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: #4b3d0c;
+}
+
+.galeria{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content:center;
+}
+
+.contenedor-galeria{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    margin-top: 40px;
 }
