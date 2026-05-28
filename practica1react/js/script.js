@@ -5,11 +5,11 @@ const textoResultado = document.getElementById('resultado');
 
 const obtenerVeredicto = (nota) => {
 if (nota >= 8) {
-return "¡Literalmente una obra maestra, es cine!";
+return "¡Lo mejor de lo mejor, es excelente!";
 } else if (nota >= 5) {
-return "Decente, sirve para pasar el rato :/";
+return "No tan mal, es interesante :/";
 } else {
-return "Que borre la cuenta mejor x_x";
+return "Mejor nadota -_-";
 }
 };
 
